@@ -44,20 +44,20 @@ function useInView(threshold = 0.1) {
 // Gallery images from past events
 const galleryImages = [
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/v0-prod-miami-prezi-BarKiBdk5j3MUw5synBuAYRfCmmbLU.png",
-    alt: "Prompt to Production presentation at The Lab Miami with audience working on laptops",
+    src: "/img/BuenosAires.png",
+    alt: "Zero to Agent Buenos Aires",
     width: 1280,
     height: 960,
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/v0-prod-miami-group-kzJ8lOWAJ4gdm1zxKgfQCmnKzknhMb.png",
-    alt: "Group photo of Prompt to Production Miami attendees",
+    src: "/img/Rosario.png",
+    alt: "Zero to Agent Rosario",
     width: 1280,
     height: 960,
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/v0-prod-miami-full-QPTgdUpId1TFlZpUEejxH7NBjQBWEF.png",
-    alt: "Developers building at The Lab Miami during the Prompt to Production event",
+    src: "/img/Mendoza.png",
+    alt: "Zero to Agent Mendoza",
     width: 1280,
     height: 960,
   },
