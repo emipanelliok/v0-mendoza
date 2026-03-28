@@ -1,6 +1,7 @@
 import React from "react"
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
+import { GeistPixelSquare } from 'geist/font/pixel'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
@@ -37,7 +38,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-sans antialiased dark`}>
+      <body className={`font-sans antialiased dark ${GeistPixelSquare.variable}`}>
         {children}
         <Analytics />
         <script id="luma-checkout" src="https://embed.lu.ma/checkout-button.js" async />
