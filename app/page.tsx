@@ -495,7 +495,7 @@ export default function ZeroToAgentPage() {
               data-luma-action="checkout"
               data-luma-event-id="ud9h4pcx"
             >
-              Register
+              Registrate
               <span className="w-0 overflow-hidden opacity-0 transition-all duration-300 group-hover:w-6 group-hover:opacity-100">
                 <ExternalLink className="w-4 h-4 ml-2" />
               </span>
