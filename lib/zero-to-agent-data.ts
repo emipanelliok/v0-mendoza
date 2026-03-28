@@ -3,96 +3,97 @@
 export const zeroToAgentData = {
   // Basic Event Info
   name: "Zero to Agent",
-  tagline: "Global Build Week",
-  greeting: "YOU'RE INVITED TO BUILD",
+  tagline: "Semana Global de Construcción",
+  greeting: "ESTÁS INVITADO A CONSTRUIR",
 
   // Date & Location
-  date: "APRIL 18, 2026",
-  locationLabel: "LOCATION",
-  venue: "THE LAB Miami",
-  venueAddress: "https://maps.app.goo.gl/thelabmiami",
+  date: "28 DE ABRIL DE 2026",
+  locationLabel: "LUGAR",
+  venue: "Universidad Champagnat",
+  venueAddress: "https://maps.app.goo.gl/Pf3YUMxBp2aEG6sP8",
 
   // Event URL
-  eventUrl: "https://community.vercel.com/host/zero-to-agent-2026",
+  eventUrl: "https://luma.com/ud9h4pcx",
 
   // Description
   description:
-    "Zero to Agent is a global build week where we ship real AI agents with v0 and Vercel. All submissions go into the global competition with $6,000+ in prizes. One submission per person, deployed on Vercel.",
+    "Zero to Agent es una semana global donde shipeamos agentes de IA reales con v0 y Vercel. Todos los proyectos entran a la competencia global con más de $6.000 en premios. Una entrega por persona, desplegado en Vercel.",
 
   // CTA
-  ctaText: "Ship your agent.",
+  ctaText: "Shipeá tu agente.",
 }
 
 export const zeroToAgentAgendaItems = [
-  { title: "Event kicks off globally", time: "April 24" },
-  { title: "Build with v0 + $30 credits", time: "Build Week" },
-  { title: "Submit your agent", time: "By May 3" },
-  { title: "Community voting opens", time: "May 3–4" },
-  { title: "Winners announced", time: "After May 5" },
+  { title: "Puertas abiertas, networking", time: "16:00" },
+  { title: "Bienvenida + intro a v0", time: "16:30" },
+  { title: "¡A construir!", time: "17:00" },
+  { title: "Sprint final", time: "19:00" },
+  { title: "Demo showcase + votación", time: "19:30" },
+  { title: "Cierre y networking", time: "20:00" },
 ]
 
 export const zeroToAgentExperienceItems = [
   {
-    title: "Build Real Agents",
+    title: "Construí Agentes Reales",
     description:
-      "Ship something that actually does something useful. Built with v0, deployed on Vercel.",
+      "Shipeá algo que realmente sirva. Construido con v0, desplegado en Vercel.",
   },
   {
-    title: "Global Competition",
+    title: "Competencia Global",
     description:
-      "Submit at the Vercel Community hub. One submission per person, no teams.",
+      "Presentá en el hub de la comunidad de Vercel. Una entrega por persona, sin equipos.",
   },
   {
-    title: "$30 v0 Credits",
+    title: "$30 en Créditos v0",
     description:
-      "Every attendee gets $30 in v0 credits to use during build week.",
+      "Cada participante recibe $30 en créditos de v0 para usar durante la semana.",
   },
   {
-    title: "Community Voting",
+    title: "Votación de la Comunidad",
     description:
-      "24-hour voting period on May 3–4. One vote per Vercel account.",
+      "24 horas de votación el 3 y 4 de mayo. Un voto por cuenta de Vercel.",
   },
 ]
 
 export const zeroToAgentPrizes = [
   {
-    place: "1st",
+    place: "1er puesto",
     emoji: "🥇",
-    prize: "$3,000 v0 credits",
-    extra: "$200/mo Vercel Platform credits + Vercel Pro for 6 months",
+    prize: "$3.000 en créditos v0",
+    extra: "$200/mes en créditos Vercel Platform + Vercel Pro por 6 meses",
   },
   {
-    place: "2nd",
+    place: "2do puesto",
     emoji: "🥈",
-    prize: "$2,000 v0 credits",
-    extra: "$100/mo Vercel Platform credits + Vercel Pro for 6 months",
+    prize: "$2.000 en créditos v0",
+    extra: "$100/mes en créditos Vercel Platform + Vercel Pro por 6 meses",
   },
   {
-    place: "3rd",
+    place: "3er puesto",
     emoji: "🥉",
-    prize: "$1,000 v0 credits",
-    extra: "$50/mo Vercel Platform credits + Vercel Pro for 6 months",
+    prize: "$1.000 en créditos v0",
+    extra: "$50/mes en créditos Vercel Platform + Vercel Pro por 6 meses",
   },
   {
-    place: "Community Favorite",
+    place: "Favorito de la Comunidad",
     emoji: "❤️",
-    prize: "Community vote winner",
-    extra: "Separate from judged prizes",
+    prize: "Ganador por voto popular",
+    extra: "Premio independiente al del jurado",
   },
 ]
 
 export const judgingCriteria = [
   {
-    title: "Agent Usefulness",
-    description: "Real-world applicability and problem-solving",
+    title: "Utilidad del Agente",
+    description: "Aplicabilidad real y capacidad de resolver problemas concretos",
   },
   {
-    title: "Technical Execution",
-    description: "Built with v0, deployed on Vercel",
+    title: "Ejecución Técnica",
+    description: "Construido con v0, desplegado en Vercel",
   },
   {
-    title: "Creativity",
-    description: "Originality and innovative approach",
+    title: "Creatividad",
+    description: "Originalidad y enfoque innovador",
   },
 ]
 
@@ -105,36 +106,9 @@ export const zeroToAgentSponsors = [
     height: 37,
   },
   {
-    name: "Basement",
-    logo: "/sponsors/basement.svg",
-    url: "https://basement.dev",
-    assetType: "svg" as const,
-  },
-  {
-    name: "UKG",
-    logo: "/sponsors/ukg.svg",
-    url: "https://www.ukg.com",
-    assetType: "svg" as const,
-    height: 47,
-  },
-  {
-    name: "The Lab Miami",
-    logo: "/sponsors/the-lab.svg",
-    url: "https://thelabmiami.com",
-    assetType: "svg" as const,
-    height: 93,
-  },
-  {
-    name: "DeepStation",
-    logo: "/sponsors/deepstation.svg",
-    url: "https://deepstation.ai",
-    assetType: "svg" as const,
-    height: 47,
-  },
-  {
-    name: "Glue Studios",
-    logo: "/sponsors/glue-studios.svg",
-    url: "https://www.thecreativeglue.com",
+    name: "AI Weekend",
+    logo: "/sponsors/aiwknd.svg",
+    url: "https://aiwknd.com",
     assetType: "svg" as const,
     height: 47,
   },

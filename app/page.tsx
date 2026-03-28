@@ -126,12 +126,12 @@ export default function ZeroToAgentPage() {
             </a>
             <div className="flex items-center gap-[18px]">
               <a
-                href="https://lu.ma/97nmj0gu"
+                href="https://luma.com/ud9h4pcx"
                 className="luma-checkout--button group bg-white text-[#0f172a] px-6 py-3 rounded-full text-[16px] font-medium leading-[24px] transition-all duration-300 hover:bg-gray-100 hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] flex items-center"
                 data-luma-action="checkout"
-                data-luma-event-id="97nmj0gu"
+                data-luma-event-id="ud9h4pcx"
               >
-                Register
+                Registrate
                 <span className="w-0 overflow-hidden opacity-0 transition-all duration-300 group-hover:w-6 group-hover:opacity-100">
                   <ExternalLink className="w-4 h-4 ml-2" />
                 </span>
@@ -189,7 +189,7 @@ export default function ZeroToAgentPage() {
           >
             <div className="flex flex-col gap-4 group cursor-default">
               <p className="font-mono text-[14px] text-[#737373] tracking-[2.8px] transition-colors duration-300 group-hover:text-[#999]">
-                WHEN
+                CUÁNDO
               </p>
               <p className="font-mono text-[16px] text-white tracking-[-0.64px] font-extralight transition-all duration-300 group-hover:translate-x-1">
                 {zeroToAgentData.date}
@@ -211,11 +211,11 @@ export default function ZeroToAgentPage() {
             </a>
             <div className="flex flex-col gap-4 group cursor-default">
               <p className="font-mono text-[14px] text-[#737373] tracking-[2.8px] transition-colors duration-300 group-hover:text-[#999]">
-                PRIZES
+                PREMIOS
               </p>
               <p className="font-mono text-[16px] text-white tracking-[-0.64px] font-extralight transition-all duration-300 group-hover:translate-x-1 flex items-center gap-2">
                 <Trophy className="w-4 h-4" />
-                $6,000+ in prizes
+                $6.000+ en premios
               </p>
             </div>
           </div>
@@ -235,7 +235,7 @@ export default function ZeroToAgentPage() {
               }}
               className="font-mono text-[14px] text-[#737373] tracking-[2.8px] flex items-center gap-3 group cursor-pointer hover:text-[#999] transition-colors duration-300"
             >
-              <span>SCROLL TO LEARN MORE</span>
+              <span>DESLIZÁ PARA VER MÁS</span>
               <span className="inline-block animate-bounce">↓</span>
             </button>
           </div>
@@ -265,7 +265,7 @@ export default function ZeroToAgentPage() {
             className={`w-full lg:w-[232px] flex items-center lg:sticky lg:top-[140px] lg:self-start transition-all duration-700 ${agendaSection.isInView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`}
           >
             <p className="font-mono text-[14px] text-[#737373] tracking-[2.8px]">
-              TIMELINE
+              AGENDA
             </p>
           </div>
           <div className="flex flex-col w-full lg:w-auto">
@@ -292,7 +292,7 @@ export default function ZeroToAgentPage() {
             className={`w-full lg:w-[232px] flex items-center lg:sticky lg:top-[140px] lg:self-start transition-all duration-700 ${experienceSection.isInView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`}
           >
             <p className="font-mono text-[14px] text-[#737373] tracking-[2.8px]">
-              THE EXPERIENCE
+              LA EXPERIENCIA
             </p>
           </div>
           <div className="w-full lg:w-[685px] flex flex-wrap">
@@ -318,7 +318,7 @@ export default function ZeroToAgentPage() {
             className={`w-full lg:w-[232px] flex items-center lg:sticky lg:top-[140px] lg:self-start transition-all duration-700 ${prizesSection.isInView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`}
           >
             <p className="font-mono text-[14px] text-[#737373] tracking-[2.8px]">
-              PRIZES
+              PREMIOS
             </p>
           </div>
           <div className="w-full lg:w-[685px] flex flex-col gap-4">
@@ -345,7 +345,7 @@ export default function ZeroToAgentPage() {
             className={`w-full lg:w-[232px] flex items-center lg:sticky lg:top-[140px] lg:self-start transition-all duration-700 ${judgingSection.isInView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`}
           >
             <p className="font-mono text-[14px] text-[#737373] tracking-[2.8px]">
-              JUDGING
+              CRITERIOS
             </p>
           </div>
           <div className="w-full lg:w-[685px] flex flex-wrap">
@@ -371,7 +371,7 @@ export default function ZeroToAgentPage() {
             className={`w-full lg:w-[232px] flex items-center lg:sticky lg:top-[140px] lg:self-start transition-all duration-700 ${sponsorSection.isInView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`}
           >
             <p className="font-mono text-[14px] text-[#737373] tracking-[2.8px]">
-              SUPPORTED BY
+              CON EL APOYO DE
             </p>
           </div>
           <div className="w-full lg:w-[685px] flex flex-wrap">
@@ -400,7 +400,7 @@ export default function ZeroToAgentPage() {
                   : "opacity-0 translate-y-12"
               }`}
             >
-              From our previous events: developers building with and for AI through hands-on workshops, demos, and real-time shipping.
+              De nuestros eventos anteriores: developers construyendo con y para IA, en talleres prácticos, demos y shipeando en tiempo real.
             </h2>
           </div>
 
@@ -490,10 +490,10 @@ export default function ZeroToAgentPage() {
             className={`relative z-10 transition-all duration-1000 delay-200 ${ctaSection.isInView ? "opacity-100 translate-x-0" : "opacity-0 translate-x-12"}`}
           >
             <a
-              href="https://lu.ma/97nmj0gu"
+              href="https://luma.com/ud9h4pcx"
               className="luma-checkout--button group bg-white text-[#0f172a] px-6 py-3 rounded-full text-[16px] font-medium leading-[24px] transition-all duration-300 hover:bg-gray-100 hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] flex items-center"
               data-luma-action="checkout"
-              data-luma-event-id="97nmj0gu"
+              data-luma-event-id="ud9h4pcx"
             >
               Register
               <span className="w-0 overflow-hidden opacity-0 transition-all duration-300 group-hover:w-6 group-hover:opacity-100">

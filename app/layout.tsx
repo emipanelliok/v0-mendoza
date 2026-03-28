@@ -9,28 +9,28 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Zero to Agent Miami | v0 IRL at THE LAB Miami',
-  description: 'Join us in Miami for Zero to Agent - build and ship real AI agents with v0 and Vercel. Live at THE LAB Miami, April 24 - May 3, 2026.',
+  title: 'Zero to Agent Mendoza | v0 IRL en Universidad Champagnat',
+  description: 'Sumate a Mendoza para Zero to Agent — construí y shipeá agentes de IA reales con v0 y Vercel. En la Universidad Champagnat, 28 de abril de 2026.',
   generator: 'v0.app',
-  keywords: ['AI agents', 'v0', 'Vercel', 'Miami', 'THE LAB Miami', 'hackathon', 'build week', 'AI development'],
+  keywords: ['agentes de IA', 'v0', 'Vercel', 'Mendoza', 'Universidad Champagnat', 'hackathon', 'semana de construcción', 'desarrollo IA'],
   openGraph: {
-    title: 'Zero to Agent Miami | v0 IRL',
-    description: 'Join us in Miami for Zero to Agent - build and ship real AI agents with v0 and Vercel. Live at THE LAB Miami, April 24 - May 3, 2026.',
+    title: 'Zero to Agent Mendoza | v0 IRL',
+    description: 'Sumate a Mendoza para Zero to Agent — construí y shipeá agentes de IA reales con v0 y Vercel. En la Universidad Champagnat, 28 de abril de 2026.',
     type: 'website',
-    siteName: 'Zero to Agent Miami',
+    siteName: 'Zero to Agent Mendoza',
     images: [
       {
         url: '/opengraph-image.png',
         width: 2400,
         height: 1256,
-        alt: 'Zero to Agent Miami - v0 IRL at THE LAB Miami',
+        alt: 'Zero to Agent Mendoza - v0 IRL en Universidad Champagnat',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Zero to Agent Miami | v0 IRL',
-    description: 'Join us in Miami for Zero to Agent - build and ship real AI agents with v0 and Vercel. Live at THE LAB Miami, April 24 - May 3, 2026.',
+    title: 'Zero to Agent Mendoza | v0 IRL',
+    description: 'Sumate a Mendoza para Zero to Agent — construí y shipeá agentes de IA reales con v0 y Vercel. En la Universidad Champagnat, 28 de abril de 2026.',
     images: ['/opengraph-image.png'],
     creator: '@v0',
   },
@@ -59,7 +59,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body className={`font-sans antialiased dark ${GeistPixelSquare.variable}`}>
         {children}
         <Analytics />
