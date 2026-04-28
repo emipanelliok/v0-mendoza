@@ -29,7 +29,7 @@ export default function ScreenPage() {
   }, [])
 
   return (
-    <div className="relative h-screen w-screen overflow-hidden bg-black text-white flex flex-col items-center justify-between pt-16 pb-20 px-12">
+    <div className="relative h-screen w-screen overflow-hidden bg-black text-white flex flex-col items-center justify-between pt-12 pb-12 px-12">
 
       {/* Dithering background */}
       <div className={`absolute inset-0 pointer-events-none transition-opacity duration-1000 ${mounted ? "opacity-100" : "opacity-0"}`}>
@@ -70,7 +70,7 @@ export default function ScreenPage() {
       </div>
 
       {/* QR Codes */}
-      <div className={`relative z-10 flex items-end gap-16 -mt-24 transition-all duration-700 delay-400 ${mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
+      <div className={`relative z-10 flex items-end gap-16 transition-all duration-700 delay-400 ${mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
         {qrItems.map((item) => (
           <div key={item.label} className="flex flex-col items-center gap-4">
             <div className="border border-[#333] p-3 bg-black/60 backdrop-blur-sm">
