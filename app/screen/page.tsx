@@ -29,7 +29,7 @@ export default function ScreenPage() {
   }, [])
 
   return (
-    <div className="relative h-screen w-screen overflow-hidden bg-black text-white flex flex-col items-center justify-between pt-10 pb-14 px-12">
+    <div className="relative h-screen w-screen overflow-hidden bg-black text-white flex flex-col items-center justify-between pt-16 pb-20 px-12">
 
       {/* Dithering background */}
       <div className={`absolute inset-0 pointer-events-none transition-opacity duration-1000 ${mounted ? "opacity-100" : "opacity-0"}`}>
