@@ -84,6 +84,13 @@ export default function Screen2Page() {
         ))}
       </div>
 
+      {/* WiFi */}
+      <div className={`relative z-10 flex items-center gap-6 transition-all duration-700 delay-500 ${mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
+        <span className="font-mono text-xs text-[#737373] tracking-[2px]">RED <span className="text-white">UCH Biblioteca</span></span>
+        <div className="w-px h-3 bg-[#333]" />
+        <span className="font-mono text-xs text-[#737373] tracking-[2px]">CLAVE <span className="text-white">UCH@wifi</span></span>
+      </div>
+
     </div>
   )
 }
