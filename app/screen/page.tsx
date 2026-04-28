@@ -65,7 +65,7 @@ export default function ScreenPage() {
         <div className="flex items-center gap-10 mt-2">
           <img src="/sponsors/vercel.svg" alt="Vercel" className="h-7 w-auto opacity-80" />
           <div className="w-px h-5 bg-[#333]" />
-          <img src="/sponsors/aiwknd.svg" alt="AI Weekend" className="h-6 w-auto opacity-80" />
+          <img src="/sponsors/aiwknd.svg" alt="AI Weekend" className="h-9 w-auto opacity-80" />
         </div>
       </div>
 
